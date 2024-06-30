@@ -5,7 +5,7 @@
 }
 .featured__subtitle{
     font-size: var(--size-sm);
-    color: var(--clr-violet);
+    color: var(--clr-red600);
     text-transform: capitalize;
     font-weight: 400;
 }

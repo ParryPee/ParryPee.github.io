@@ -14,7 +14,7 @@
     width: 20rem;
 }
 .hero__subtitle{
-    color: var(--clr-stone800);
+    color: var(--clr-gray200);
     font-size: var(--size-base);
 }
 .hero__title{

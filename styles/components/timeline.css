@@ -3,6 +3,9 @@
     max-width: 100%;
     margin: 100px auto;
 }
+.timeline__header{
+    margin-bottom: 100px;
+}
 .timeline__content{
     position: relative;
     padding: 10px 50px;
@@ -35,6 +38,10 @@
     background-color: var(--clr-stone800);
     border-radius: 6px;
 }
+.timeline__box small{
+    color: var(--clr-gray200);
+    font-style: italic;
+}
 .timeline__title{
     color: var(--clr-violet400);
 }
@@ -43,4 +50,11 @@
 }
 .right-box{
     left: 50%;
+}
+.timeline__details{
+    margin-top: 40px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

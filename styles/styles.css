@@ -1,12 +1,15 @@
 :root{
-    --clr-light: #fdf2f8;
+    --clr-light: #e5e7eb;
     --clr-dark: #0a0908;
+    --clr-gray200: #e5e7eb;
     --clr-stone400: #9ca3af;
     --clr-stone600: #4b5563;
     --clr-stone800: #1f2937;
     --clr-pink: #9d174d;
     --clr-violet: #5b21b6;
     --clr-violet400: #a78bfa;
+    --clr-rose600: #e11d48;
+    --clr-red600: #dc2626;
 
 
     /* pink: 157, 23, 77 */

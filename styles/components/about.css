@@ -40,7 +40,7 @@
 }
 .about__list{
     font-size: var(--size-sm);
-    color: var(--clr-stone600);
+    color: var(--clr-rose600);
 }
 .about__list::before{
     content: '';
@@ -60,23 +60,27 @@
     }
     .about__title{
         font-size: var(--size-3xl);
-        color: var(--clr-light);
+
     
     }
     .about__description{
         max-width: 60ch;
         font-size: var(--size-base);
-        color: var(--clr-stone600);
+
     }
     .about__subtitle{
         font-size: var(--size-base);
-        color: var(--clr-stone400);
+
     }
     .about__list{
         font-size: var(--size-base);
-        color: var(--clr-stone600);
-    }
 
+    }
+    .about__img{
+        border-radius: 20%;
+        max-width: 365px;
+        max-height: fit-content;
+    }
 
 
 }
@@ -88,5 +92,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+    }
+    .about__img{
+        border-radius: 20%;
+        max-width: 600px;
+        max-height: fit-content;
     }
 }
